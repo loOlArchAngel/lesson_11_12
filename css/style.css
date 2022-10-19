@@ -1,0 +1,477 @@
+.wrapper{
+	margin-top: 50px;
+	overflow: hidden;
+	min-height: 100%;
+	position: relative;
+}
+div{
+	display: block;
+}
+.page {
+	background: white;
+	max-width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.page__container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.page__skay {
+	background: rgb(0, 172, 255);
+	background: linear-gradient(180deg, rgba(0, 172, 255, 1) 0%, rgba(2, 250, 251, 0.15730042016806722) 100%);
+	height: 300px;
+}
+
+
+.skay__cloud-1 {
+	height: 40px;
+	width: 60px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 200px;
+	top: 40px;
+	box-shadow: -2px 2px 5px rgba(243, 240, 213, 0.966);
+}
+
+.skay__cloud-2 {
+	height: 40px;
+	width: 60px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 230px;
+	top: 30px;
+	box-shadow: -2px 2px 5px rgba(243, 240, 213, 0.966);
+}
+
+.skay__cloud-3 {
+	height: 40px;
+	width: 50px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 220px;
+	top: 50px;
+	box-shadow: -2px 2px 5px rgba(243, 240, 213, 0.966);
+}
+
+.skay__cloud-4 {
+	height: 50px;
+	width: 90px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 230px;
+	top: 40px;
+}
+
+.skay__sun {
+	height: 50px;
+	width: 50px;
+	background-color: yellow;
+	border-radius: 50%;
+	position: absolute;
+	left: 100px;
+	top: 50px;
+	box-shadow: 0px 0px 20px yellow;
+}
+.skay__cloud-5 {
+	height: 40px;
+	width: 60px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 400px;
+	top: 110px;
+	box-shadow: -2px 2px 5px rgba(243, 240, 213, 0.966);
+}
+
+.skay__cloud-6 {
+	height: 40px;
+	width: 60px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 420px;
+	top: 120px;
+	box-shadow: -2px 2px 5px rgba(243, 240, 213, 0.966);
+}
+
+.skay__cloud-7 {
+	height: 50px;
+	width: 80px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 430px;
+	top: 95px;
+	box-shadow: 2px -2px 5px rgba(243, 240, 213, 0.966);
+}
+
+.skay__cloud-8 {
+	height: 50px;
+	width: 90px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 450px;
+	top: 110px;
+	box-shadow: 2px -2px 5px rgba(243, 240, 213, 0.966);
+}
+
+.skay__cloud-9 {
+	height: 40px;
+	width: 70px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	z-index: 1;
+	left: 100px;
+	top: 120px;
+	box-shadow: 2px -2px 5px rgba(243, 240, 213, 0.966);
+}
+
+.skay__cloud-10 {
+	height: 40px;
+	width: 70px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 130px;
+	top: 110px;
+}
+
+.skay__cloud-11 {
+	height: 40px;
+	width: 80px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 70px;
+	top: 110px;
+	box-shadow: 0px -2px 5px rgba(243, 240, 213, 0.966);
+}
+
+.skay__cloud-12 {
+	height: 30px;
+	width: 70px;
+	background-color:white;
+	border-radius: 50%;
+	position: absolute;
+	left: 50px;
+	top: 130px;
+	box-shadow: -2px -2px 5px rgba(243, 240, 213, 0.966);
+}
+
+.page__field {
+background: rgb(255, 248, 3);
+	background: linear-gradient(180deg, rgba(255, 248, 3, 0.5690651260504201) 0%, rgba(251, 240, 2, 0.9976365546218487) 100%);
+	height: 150px;
+}
+
+
+.page__road {
+	background: rgb(142, 145, 147);
+	background: linear-gradient(0deg, rgba(182, 182, 176, 1) 100%, rgba(170, 166, 166, 0.20772058823529416) 100%);
+	height: 200px;
+}
+
+.road__band {
+	background-color: white;
+	height: 10px;
+	width: 100%;
+	position: absolute;
+	top: 535px;
+}
+
+.road__tractor {
+	width: 500px;
+	height: 300px;
+}
+
+.tractor__cabin {
+	background-color: blue;
+	width: 150px;
+	height: 200px;
+	border-radius: 25px 25px 25px 0;
+	position: absolute;
+	bottom: 15%;
+	left: 60%;
+	z-index: 2;
+}
+
+.tractor__frame {
+	background-color: blue;
+	width: 300px;
+	height: 110px;
+	border-radius: 25px 40px 0px 0;
+	position: absolute;
+	bottom: 15%;
+	left: 60%;
+	z-index: 2;
+}
+
+.tractor__glass-1 {
+	background-color: rgba(33, 243, 233, 0.74);
+	width: 50px;
+	height: 60px;
+	border-radius: 10px 10px 0px 0;
+	position: absolute;
+	bottom: 33%;
+	left: 68%;
+	z-index: 2;
+
+}
+
+.tractor__glass-2 {
+	background-color: rgba(33, 243, 233, 0.74);
+	width: 50px;
+	height: 70px;
+	border-radius: 10px 10px 0px 0;
+	position: absolute;
+	bottom: 33%;
+	left: 62%;
+	z-index: 3;
+}
+
+.tractor__wheel-1 {
+	background-color: rgb(155, 152, 152);
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 5%;
+	left: 61%;
+	z-index: 4;
+}
+
+.tractor__wheel-2 {
+	background-color: rgb(155, 152, 152);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 5%;
+	left: 78%;
+	z-index: 4;
+}
+
+.tractor__wheel-3 {
+	background-color: rgb(0, 0, 0);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 8.6%;
+	left: 80.3%;
+	z-index: 4;
+}
+
+.tractor__wheel-4 {
+	background-color: rgb(0, 0, 0);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 12%;
+	left: 65.3%;
+	z-index: 4;
+}
+
+.tractor__pipe {
+	width: 10px;
+	height: 50px;
+	background-color: rgb(0, 0, 0);
+	position: absolute;
+	bottom: 31%;
+	left: 82%;
+	z-index: 0;
+
+}
+
+.tractor__hitch {
+	width: 100px;
+	height: 50px;
+	background-color: rgb(99, 98, 98);
+	border-radius: 20px;
+	position: absolute;
+	bottom: 22%;
+	left: 76%;
+	z-index: 4;
+}
+.tractor__flagpole {
+	width: 6px;
+	height: 100px;
+	background-color: rgb(153, 145, 145);
+	position: absolute;
+	bottom: 45%;
+	left: 63%;
+	z-index: 1;
+}
+
+.tractor__flag-yellow {
+	width: 100px;
+	height: 35px;
+	background-color: rgb(255, 251, 1);
+	border: solid 1px;
+	position: absolute;
+	bottom: 50%;
+	left: 53%;
+	z-index: 1;
+}
+
+.tractor__flag-blue {
+	width: 100px;
+	height: 35px;
+	background-color: rgb(1, 90, 255);
+	border: solid 1px;
+	position: absolute;
+	bottom: 55%;
+	left: 53%;
+	z-index: 1;
+}
+
+.road__tank {
+	width: 500px;
+	height: 300px;
+}
+
+.tank__frame {
+	background-color: green;
+	width: 200px;
+	height: 70px;
+	border-radius: 40%;
+	position: absolute;
+	bottom: 20%;
+	left: 10%;
+	z-index: 2;
+	box-shadow: -4px -3px 5px rgb(2, 87, 2)
+}
+
+.tank__caterpillar {
+	background-color: green;
+	width: 320px;
+	height: 90px;
+	border-radius: 45%;
+	position: absolute;
+	bottom: 8%;
+	left: 5%;
+	z-index: 2;
+	box-shadow: -4px -3px 5px rgb(2, 87, 2)
+}
+
+.tank__roller-1 {
+	background-color: rgb(0, 0, 0);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 11%;
+	left: 6%;
+	z-index: 4;
+	box-shadow: 4px 3px 5px rgb(78, 77, 77)
+}
+
+.tank__roller-2 {
+	background-color: rgb(0, 0, 0);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 10%;
+	left: 12%;
+	z-index: 4;
+	box-shadow: 4px 3px 5px rgb(78, 77, 77)
+}
+
+.tank__roller-3 {
+	background-color: rgb(0, 0, 0);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 10%;
+	left: 18%;
+	z-index: 4;
+	box-shadow: 4px 3px 5px rgb(78, 77, 77)
+}
+
+.tank__roller-4 {
+	background-color: rgb(0, 0, 0);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 10%;
+	left: 24%;
+	z-index: 4;
+	box-shadow: 4px 3px 5px rgb(78, 77, 77)
+}
+
+.tank__roller-5{
+	background-color: rgb(0, 0, 0);
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 11%;
+	left: 30%;
+	z-index: 4;
+	box-shadow: 4px 3px 5px rgb(78, 77, 77);
+}
+.tank__muzzle {
+	background-color: green;
+	width: 150px;
+	height: 10px;
+	position: absolute;
+	bottom: 20%;
+	left: 29%;
+	transform: rotate(20deg);
+	z-index: 2;
+
+}
+
+.tank__z-1 {
+	background-color: rgb(255, 255, 255);
+	width: 40px;
+	height: 8px;
+	position: absolute;
+	bottom: 29%;
+	left: 18%;
+	z-index: 5;
+}
+
+.tank__z-2 {
+	background-color: rgb(255, 255, 255);
+	width: 55px;
+	height: 8px;
+	position: absolute;
+	bottom: 26%;
+	left: 17%;
+	transform: rotate(-45deg);
+	z-index: 5;
+}
+
+.tank__z-3{
+	background-color: rgb(255, 255, 255);
+	width: 45px;
+	height: 8px;
+	position: absolute;
+	bottom: 23%;
+	left: 17.5%;
+	z-index: 5;
+}
+.tank__cable {
+	background-color: rgb(110, 110, 110);
+	width: 260px;
+	height: 10px;
+	position: absolute;
+	bottom: 18%;
+	left: 35%;
+	transform: rotate(-6deg);
+	z-index: 1;
+}
